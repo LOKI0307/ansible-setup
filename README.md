@@ -50,7 +50,7 @@ step 6) create ansible play-book in master server.
  ````
 step 7) run below command to confirm connectivity between all servers.
 ````
->	ansible -i hosts -m ping
+>	ansible all -i hosts -m ping
 ````
 step 8) run below command to deploy playbook.
 ````
